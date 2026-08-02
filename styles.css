@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -17,6 +17,14 @@ html, body {
     background: black;
     z-index: -1;
 }
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 60vh;
+}
+
 h1 {
     position: absolute;
     top: 50%;
@@ -25,15 +33,4 @@ h1 {
     color: rgb(171, 197, 215);
     font-size: 3em;
     text-align: center;
-}
-.content {
-    position: relative;
-    z-index: 1;
-    color: white;
-}
-.content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding-top: 60vh;
 }
